@@ -5,12 +5,11 @@ float cm_to_in(void)
     printf("\nThe number of inches is %.2f\n", in);
     return in;
 }
-//m to ft
 
-float m_to_ft(void)
+float ft_to_cm(void)
 {
-    float meters = get_float("Meters: ");
-    float feet = meters*3.28084;
-    printf("\nFeet:%f\n", feet);
-    return in;
+    float ft = get_float("Number of feet: ");
+    float cm = ft * 30.48;
+    printf("\nThe number of centimeters is %.2f\n", cm);
+    return cm;
 }
