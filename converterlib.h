@@ -12,4 +12,14 @@ float ft_to_cm(void)
     float cm = ft * 30.48;
     printf("\nThe number of centimeters is %.2f\n", cm);
     return cm;
+
+
+int km_to_in(void)
+{
+    int km = get_int("Kilo: ")
+    int in = Kilo * 39370;
+    printf("Inches is %.2i\n", in);
+    return in;
+
 }
+
